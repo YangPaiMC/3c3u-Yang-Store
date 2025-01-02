@@ -11,16 +11,9 @@ const products = [
     { id: 4, name: "火箭（3级）", price: 12, category: "travel", img: "images/firework_3.png" },
     { id: 5, name: "金苹果", price: 30, category: "combat", img: "images/golden_apple.png" },
     { id: 6, name: "黑曜石", price: 2, category: "building", img: "images/obsidian.png" },
-    { id: 7, name: "紫颂果", price: 10, category: "combat", img: "images/chorus_fruit.png" },
+    { id: 7, name: "紫颂果", price: 6, category: "combat", img: "images/chorus_fruit.png" },
     { id: 8, name: "火药", price: 8, category: "materials", img: "images/gunpowder.png" },
-    { id: 9, name: "甘蔗", price: 5, category: "materials", img: "images/sugar_cane.png" },
-    { id: 10, name: "大佬护送带出出生点（护送员：666666）", price: 20, category: "00", img: "images/fish.jpg" },
-    { id: 11, name: "大佬护送带出出生点（护送员：1q1q1q1qzs）", price: 10, category: "00", img: "images/1q1q1q1qzs.jpg" },
-    { id: 12, name: "大佬护送带出出生点（护送员：weishenxv）", price: 50, category: "00", img: "images/91.jpg" },
-    { id: 13, name: "大佬护送带出出生点（护送员：YangPai_MC）", price: 200, category: "00", img: "images/yangpai.jpg" },
-    { id: 14, name: "大佬护送带出出生点（护送员：yyoyyo）", price: 5, category: "00", img: "images/yo.jpg" },
-    { id: 15, name: "大佬护送带出出生点（护送员：JIANGDAOJIE）", price: 8, category: "00", img: "images/jiang.jpg" },
-    { id: 16, name: "大佬护送带出出生点（护送员：hahahahai）", price: 12, category: "00", img: "images/ha.jpg" }
+    { id: 9, name: "甘蔗", price: 5, category: "materials", img: "images/sugar_cane.png" }
 ];
 
 // 渲染商品
