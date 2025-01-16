@@ -27,7 +27,6 @@ h2 {
 
 /* 商品样式 */
 .product {
-    width: 20%;  /* 设置商品的宽度为20% */
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
@@ -39,10 +38,12 @@ h2 {
     box-sizing: border-box; /* 防止padding影响整体宽度 */
 }
 
+/* 商品样式：鼠标悬停效果 */
 .product:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);  /* 鼠标悬停时增加阴影效果 */
 }
 
+/* 图片样式 */
 .product img {
     width: 100%;
     height: auto;
@@ -186,4 +187,25 @@ h2 {
 
 .close-btn:hover {
     background-color: #c82333;
+}
+
+/* 媒体查询：手机 */
+@media (max-width: 767px) {
+    .product {
+        width: 80%; /* 每个商品宽度为80% */
+    }
+}
+
+/* 媒体查询：平板 */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product {
+        width: 40%; /* 每个商品宽度为40% */
+    }
+}
+
+/* 媒体查询：电脑 */
+@media (min-width: 1025px) {
+    .product {
+        width: 25%; /* 每个商品宽度为25% */
+    }
 }
