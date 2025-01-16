@@ -86,17 +86,35 @@ h2 {
     margin: 20px 0;
 }
 
+/* 单个分类按钮样式 */
 .category-btn {
-    margin: 0 10px;
-    padding: 10px 20px;
+    margin: 0 12px;
+    padding: 12px 25px;
     cursor: pointer;
-    border: 1px solid #ddd;
-    background-color: #f1f1f1;
-    border-radius: 5px; /* 圆角按钮 */
+    border: 2px solid #0072E3;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0); /* 渐变背景 */
+    color: #0072E3;
+    border-radius: 50px;  /* 圆形按钮 */
+    font-size: 1.0em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);  /* 给按钮加阴影 */
+}
+
+.category-btn:hover {
+    background: linear-gradient(145deg, #0072E3, #005bb5); /* 鼠标悬停时渐变背景 */
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* 鼠标悬停时阴影效果增强 */
 }
 
 .category-btn.active {
-    background-color: #0072E3;
+    background: linear-gradient(145deg, #0072E3, #005bb5);  /* 激活按钮的渐变背景 */
+    color: white;
+    border: 2px solid #005bb5;
+}
+
+.category-btn:focus {
+    outline: none;  /* 去除按钮焦点时的默认边框 */
 }
 
 /* 购物车按钮样式 */
@@ -105,7 +123,7 @@ h2 {
     bottom: 20px;
     right: 20px;
     font-size: 30px;
-    background-color: #0072E3;
+    background-color: #f1f1f1;
     padding: 15px;
     border-radius: 50%;
     cursor: pointer;
