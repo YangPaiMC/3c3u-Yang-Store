@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    font-family: '黑体', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+h2 {
+    color: #fff;
+    font-family: '黑体', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+/* 新增内容框样式 */
+.content-box {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 40px 60px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* 修改原有.container样式 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
